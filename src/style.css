@@ -12,6 +12,15 @@
     color: darkred;
 }
 
+.card-largura {
+    width: 18rem;
+}
+
+.imagem-tamanho {
+    object-fit: cover;
+    height: 200px;
+}
+
 .botao-cor-receita {
     background-color: darkred;
     border-color: darkred;
@@ -20,3 +29,8 @@
 .borda-cor-receita{
     border-color: darkred;   
 }
+
+/* .row>* {
+    padding-left: 0;
+    padding-right: 0;
+} */
