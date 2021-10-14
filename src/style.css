@@ -12,8 +12,12 @@
     color: darkred;
 }
 
+#cor-titulo {
+    color: #8D0606;
+}
+
 .card-largura {
-    width: 18rem;
+    max-width: 18rem;
 }
 
 .imagem-tamanho {
@@ -24,13 +28,16 @@
 .botao-cor-receita {
     background-color: darkred;
     border-color: darkred;
+    color: white;
+}
+
+.botao-cor-receita:hover {
+    background-color: crimson;
+    border-color: crimson;
+    color: white;
+    transition: all .3s ease-in-out;
 }
 
 .borda-cor-receita{
     border-color: darkred;   
 }
-
-/* .row>* {
-    padding-left: 0;
-    padding-right: 0;
-} */
